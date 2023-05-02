@@ -20,7 +20,9 @@ class Program
             else if ( userGuess < magicNumber) {
                 Console.WriteLine("Guess Higher!");
             }
+            else {
+                Console.WriteLine("You are correct!");
+            }
         }
-        Console.WriteLine("You are correct!");
     }
 }

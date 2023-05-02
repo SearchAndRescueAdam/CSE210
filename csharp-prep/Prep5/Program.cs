@@ -4,6 +4,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep5 World!");
+        
+    }
+    {
+        Console.WriteLine()
+    }
+    static string PromptUserName()
+    {
+
+    }
+    static int PromptUserNumber()
+    {
+
+    }
+    static int SquareNumber()
+    {
+
+    }
+    static void DisplayResults()
+    {
+
     }
 }

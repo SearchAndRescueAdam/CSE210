@@ -1,6 +1,6 @@
 # cse210-student-template
 
-Adam Owsleys CSE 210 Code
+Adam Owsley's CSE 210 Code
 
 
 
