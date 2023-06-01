@@ -11,16 +11,16 @@ class Reference {
 
     public Reference(string book, int chapter, int verse) {
 
-        book = _book;
-        chapter = _chapter;
-        verse = _verse;  
+        _book = book;
+        _chapter = chapter;
+        _verse = verse;  
     }
     public Reference(string book, int chapter, int verse, int endVerse) {
 
-        book = _book;
-        chapter = _chapter;
-        verse = _verse;
-        endVerse = _endVerse;
+        _book = book;
+        _chapter = chapter;
+        _verse = verse;  
+        _endVerse = endVerse;
     }
 
     public void showReference() {
