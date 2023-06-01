@@ -33,12 +33,25 @@ class Word {
             return _letters;
         }
     }
-    public void HideWords() {
-        for (int i = 0; i > 3; i++){
-            
-            
 
-        }
+    public bool getHidden() {
+
+        return _isHidden;
+
     }
+
+
+
+
+
+
+
+    // public void HideWords() {
+    //     for (int i = 0; i > 3; i++){
+            
+    //         Random.Next(_letters.Count);
+    //     }
+    // }
+
 
 }

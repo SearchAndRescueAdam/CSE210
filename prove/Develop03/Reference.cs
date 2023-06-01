@@ -15,7 +15,7 @@ class Reference {
         chapter = _chapter;
         verse = _verse;  
     }
-        public Reference(string book, int chapter, int verse, int endVerse) {
+    public Reference(string book, int chapter, int verse, int endVerse) {
 
         book = _book;
         chapter = _chapter;
@@ -23,7 +23,13 @@ class Reference {
         endVerse = _endVerse;
     }
 
-    
-
+    public void showReference() {
+        if (_endVerse != 0) {
+            Console.Write($"{_book} {_chapter}:{_verse}-{_endVerse} ");
+        }
+        else {
+            Console.Write($"{_book} {_chapter}:{_verse} ");
+        }
+    }
 }
 

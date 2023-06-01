@@ -4,11 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        var john = new MathAssignment("John", "Subtration", "Section 7.3", "Problems 8-19");
-        var john1 = new WritingAssignment("John", "English", "The Causes of World War II by Mary Waters");
-        john.GetSummary();
-        john.GetHomeworkList();
-        john1.GetWritingInformation();
+        Console.Clear();
+        Assignment a1 = new Assignment("Samuel Bennett", "Multiplication");
+        MathAssignment a2 = new MathAssignment("Roberto Rodriguez", "Fractions", "7.3", "8-19");
+        WritingAssignment a3 = new WritingAssignment("Mary Waters", "European History", "The Causes of World War II");
+        a1.GetSummary();
+        a2.GetHomeworkList();
+        a3.GetWritingInformation();
 
     }
 }
@@ -40,7 +42,7 @@ class MathAssignment: Assignment {
 
     public void GetHomeworkList() {
         GetSummary();
-        Console.WriteLine($"{_textbookSelection}, {_problems}");
+        Console.WriteLine($"{_textbookSelection}, {_problems}\n");
     }
 
 }
@@ -56,6 +58,6 @@ class WritingAssignment: Assignment {
 
     public void GetWritingInformation() {
         GetSummary();
-        Console.WriteLine($"{_title}");
+        Console.WriteLine($"{_title}\n");
     }
 }
